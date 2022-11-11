@@ -1,0 +1,23 @@
+import turtle
+
+James = turtle.Turtle()  # instatiates object so it can exist name of object is James
+
+James.color("red")  # sets object color to red so we can keep track of it
+
+def basic_square():
+    James.lt(90)
+    James.forward(100)
+    James.lt(90)
+    James.forward(100)
+    James.lt(90)
+    James.forward(100)
+    James.lt(90)
+    James.forward(100)
+    James.hideturtle() #can move this up to not show the turtle during creation
+
+    turtle.done()
+    return()
+
+
+
+basic_square()
