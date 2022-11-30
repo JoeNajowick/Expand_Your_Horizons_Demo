@@ -16,7 +16,7 @@ James.forward(100)
 James.hideturtle() #can move this up to not show the turtle during creation
 
 turtle.done()
-return()
+
 
 
 
