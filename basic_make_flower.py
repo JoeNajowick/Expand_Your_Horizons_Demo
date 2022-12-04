@@ -2,7 +2,7 @@ import turtle
 James = turtle.Turtle()  # instatiates object so it can exist name of object is James
 
 James.speed(0)
-localcounter = 0
+localcounter = 0 # a variable for counting the number of times the loop executes
 while localcounter <= 10:
     James.begin_fill()
     James.circle(200 - localcounter, 100)
@@ -14,5 +14,4 @@ while localcounter <= 10:
         turtle.done()
         break  # stops the loop "breaks out of it"
     else:  # else as a default case
-        localcounter = localcounter + 1
-    # messagebox.showinfo("", "counter is equal to" + str(counter))
+        localcounter = localcounter + 1  #this statement increases the loop value by +1 each time
